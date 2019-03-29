@@ -6,7 +6,8 @@
   "scripts": {
     "index": "./node_modules/.bin/parcel ./src/index.html",
     "login": "./node_modules/.bin/parcel ./src/login.html",
-    "register": "./node_modules/.bin/parcel ./src/register.html"
+    "register": "./node_modules/.bin/parcel ./src/register.html",
+    "blog": "./node_modules/.bin/parcel ./src/blog.html"
   },
   "keywords": [],
   "author": "",
