@@ -1,0 +1,21 @@
+{
+  "name": "integration-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "./node_modules/.bin/parcel ./src/index.html",
+    "login": "./node_modules/.bin/parcel ./src/login.html",
+    "register": "./node_modules/.bin/parcel ./src/register.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.17.3"
+  }
+}
