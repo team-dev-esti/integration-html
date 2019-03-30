@@ -4,85 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="scss/app.scss">
     <title>Acceuil</title>
 </head>
 <body>
-     <section class="hero is-fullheight is-default is-bold">
-         <div class="hero-head">
-             <nav class="navbar is-warning">
-                 <div class="container">
-                     <div class="navbar-brand">
-                         <a class="navbar-item" href="">
-                             <img src="img/loho_header.png" alt="Logo">
-                         </a>
-                         <span class="navbar-burger burger" data-target="navbarMenu">
-                             <span></span>
-                             <span></span>
-                             <span></span>
-                         </span>
-                     </div>
-                     <div id="navbarMenu" class="navbar-menu">
-                         <div class="navbar-end">
-                             <div class="tabs is-right">
-                                 <ul>
-                                     <li class="is-warning is-active"><a>Home</a></li>
-                                     <li><a href="">Mooc</a></li>
-                                     <li><a href="">Blog</a></li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </nav>
-         </div>
-         <div class="hero-body">
-             <div class="container has-text-centered">
-                 <div class="columns is-vcentered">
-                     <div class="column is-5">
-                         <figure class="image">
+    <!-- END NAV -->
+    <section class="hero is-fullheight is-default is-bold is-danger">
+        <div class="hero-head">
+            <nav class="navbar is-transparent">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="">
+                            <img src="img/loho_header.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active">
+                                Home
+                            </a>
+                            <a class="navbar-item">
+                                Mooc
+                            </a>
+                            <a class="navbar-item">
+                                Blog
+                            </a>
+                            <span class="navbar-item">
+                                <a class="button is-primary is-outlined "
+                                    href=""
+                                    style="margin-right: 10px">
+                                    
+                                    <span title="Hello from the other side">Se connecter</span>
+                                </a>
+                                <a class="button is-primary is-full"
+                                    href="l">
+                                    
+                                    <span title="Hello from the other side">S'inscrire</span>
+                                </a>
+                            </span>
+
+                            <!-- <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">
+                                    Account
+                                </a>
+                                <div class="navbar-dropdown">
+                                    <a class="navbar-item">
+                                        Dashboard
+                                    </a>
+                                    <a class="navbar-item">
+                                        Profile
+                                    </a>
+                                    <a class="navbar-item">
+                                        Settings
+                                    </a>
+                                    <hr class="navbar-divider">
+                                    <div class="navbar-item">
+                                        Logout
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image">
                             <div class="wrap">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 850.4 408.7" enable-background="new 0 0 850.4 408.7" xml:space="preserve">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 850.4 408.7"
+                                    enable-background="new 0 0 850.4 408.7" xml:space="preserve">
                                     <g class="rol">
                                         <g class="rol-rotate rol-rotate--5">
                                             <rect x="32.1" y="50.2" fill="#FFFFFF" width="54.1" height="34.7" />
-                                            <path fill="#FBB616" d="M70.1,68.2c0-6-4.9-10.9-10.9-10.9s-10.9,4.9-10.9,10.9H70.1z" />
+                                            <path fill="#FBB616"
+                                                d="M70.1,68.2c0-6-4.9-10.9-10.9-10.9s-10.9,4.9-10.9,10.9H70.1z" />
                                             <rect x="37" y="72.5" fill="#1D4495" width="43.8" height="7.1" />
-                                            <line fill="none" stroke="#444445" stroke-width="3.7947" stroke-miterlimit="10" x1="86.3" y1="50.2"
-                                                x2="86.3" y2="129" />
+                                            <line fill="none" stroke="#444445" stroke-width="3.7947" stroke-miterlimit="10"
+                                                x1="86.3" y1="50.2" x2="86.3" y2="129" />
                                         </g>
                                         <g class="rol-rotate rol-rotate--6">
                                             <rect x="765.2" y="51" fill="#FBB616" width="54.1" height="34.7" />
-                                            <line fill="none" stroke="#444445" stroke-width="3.7947" stroke-miterlimit="10" x1="764.2" y1="50.2"
-                                                x2="764.2" y2="114" />
+                                            <line fill="none" stroke="#444445" stroke-width="3.7947" stroke-miterlimit="10"
+                                                x1="764.2" y1="50.2" x2="764.2" y2="114" />
                                             <polygon fill="#FBB616"
                                                 points="796.9,78.6 792.9,71.3 790.2,71.3 790.2,72.5 790.9,72.5 790.9,78.6 781.6,78.6 781.6,72.5 782.9,72.5 782.9,64.2 781.6,64.2 781.6,58.1 798.5,58.1 802.5,61.9 802.5,68 799.9,70 801.3,72.4 803,72.4 803,78.6 				" />
                                             <path fill="#1D4495"
                                                 d="M798.1,59.1l3.4,3.2v5.2l-3,2.2l2.2,3.8h1.3v4.1h-4.4l-4.1-7.3h-4.3v3.3h0.7v4h-7.3v-4h1.3V63.2h-1.3v-4.1H798.1 M798.9,57.1h-0.8h-15.5h-2v2v4.1v2h1.3v6.2h-1.3v2v4v2h2h7.3h2v-2v-4v-1.2h0.3l3.5,6.2l0.6,1h1.2h4.4h2v-2v-4.1v-2h-2h-0.1l-0.7-1.2l1.5-1.1l0.8-0.6v-1v-5.2v-0.9l-0.6-0.6l-3.4-3.2L798.9,57.1L798.9,57.1z" />
-                                            <polygon fill="#1D4495" points="788.9,63.3 788.9,66.5 795.5,66.5 796.3,65.6 796.3,64 795.6,63.3 			" />
+                                            <polygon fill="#1D4495"
+                                                points="788.9,63.3 788.9,66.5 795.5,66.5 796.3,65.6 796.3,64 795.6,63.3 			" />
                                         </g>
-                                        <polygon class="rol-slide rol-slide--2" fill="#C1803E" points="16.1,123.7 86.4,100.5 156.8,123.7 	" />
+                                        <polygon class="rol-slide rol-slide--2" fill="#C1803E"
+                                            points="16.1,123.7 86.4,100.5 156.8,123.7 	" />
                                         <polygon class="rol-slide rol-slide--3" fill="#ECD1B5"
                                             points="157.6,132.9 15.3,132.9 8.8,123.9 164,123.9 	" />
-                                        <rect class="rol-scaleV rol-scaleV--3" x="15.2" y="132.9" fill="#FFEEDC" width="142.1" height="275.8" />
+                                        <rect class="rol-scaleV rol-scaleV--3" x="15.2" y="132.9" fill="#FFEEDC"
+                                            width="142.1" height="275.8" />
                                         <path class="rol-bounce rol-bounce--6" fill="#3F4953"
                                             d="M86.3,182.2c-6.1,0-11.1,5-11.1,11.1v33.4h22.2v-33.4C97.4,187.1,92.4,182.2,86.3,182.2z" />
-                                        <rect class="rol-scaleH rol-scaleH--4" x="71.3" y="221.2" fill="#CCC1B5" width="29.8" height="5.5" />
+                                        <rect class="rol-scaleH rol-scaleH--4" x="71.3" y="221.2" fill="#CCC1B5"
+                                            width="29.8" height="5.5" />
                                         <path class="rol-bounce rol-bounce--7" fill="#3F4953"
                                             d="M86.3,269.5c-6.1,0-11.1,5-11.1,11.1V314h22.2v-33.4C97.4,274.5,92.4,269.5,86.3,269.5z" />
-                                        <rect class="rol-scaleH rol-scaleH--5" x="71.3" y="308.5" fill="#CCC1B5" width="29.8" height="5.5" />
-                                        <polygon class="rol-slide rol-slide--2" fill="#C1803E" points="693.8,123.7 764.1,100.5 834.4,123.7 	" />
+                                        <rect class="rol-scaleH rol-scaleH--5" x="71.3" y="308.5" fill="#CCC1B5"
+                                            width="29.8" height="5.5" />
+                                        <polygon class="rol-slide rol-slide--2" fill="#C1803E"
+                                            points="693.8,123.7 764.1,100.5 834.4,123.7 	" />
                                         <polygon class="rol-slide rol-slide--3" fill="#ECD1B5"
                                             points="835.3,132.9 692.9,132.9 686.5,123.9 841.7,123.9 	" />
-                                        <rect class="rol-scaleV rol-scaleV--4" x="693.1" y="132.9" fill="#FFEEDC" width="142.1" height="275.8" />
+                                        <rect class="rol-scaleV rol-scaleV--4" x="693.1" y="132.9" fill="#FFEEDC"
+                                            width="142.1" height="275.8" />
                                         <path class="rol-bounce rol-bounce--6" fill="#3F4953"
                                             d="M764.1,182.2c-6.1,0-11.1,5-11.1,11.1v33.4h22.2v-33.4C775.2,187.1,770.2,182.2,764.1,182.2z" />
-                                        <rect class="rol-scaleH rol-scaleH--4" x="749.2" y="221.2" fill="#CCC1B5" width="29.8" height="5.5" />
+                                        <rect class="rol-scaleH rol-scaleH--4" x="749.2" y="221.2" fill="#CCC1B5"
+                                            width="29.8" height="5.5" />
                                         <path class="rol-bounce rol-bounce--7" fill="#3F4953"
                                             d="M764.1,269.5c-6.1,0-11.1,5-11.1,11.1V314h22.2v-33.4C775.2,274.5,770.2,269.5,764.1,269.5z" />
-                                        <rect class="rol-scaleH rol-scaleH--5" x="749.2" y="308.5" fill="#CCC1B5" width="29.8" height="5.5" />
-                                        <rect class="rol-scaleV rol-scaleV--1" x="157.3" y="201.2" fill="#EEDFCF" width="535.8" height="207.5" />
+                                        <rect class="rol-scaleH rol-scaleH--5" x="749.2" y="308.5" fill="#CCC1B5"
+                                            width="29.8" height="5.5" />
+                                        <rect class="rol-scaleV rol-scaleV--1" x="157.3" y="201.2" fill="#EEDFCF"
+                                            width="535.8" height="207.5" />
                                         <polygon class="rol-scaleV rol-scaleV--11" fill="#C1803E"
                                             points="701.6,201.2 148.8,201.2 157.3,187.5 693.1,187.5 	" />
                                         <path class="rol-rotate rol-rotate--1" fill="#DDC3AA"
@@ -93,26 +144,40 @@
                                             d="M576.6,334.5c-3.1-2.4-7.4-2.4-10.5,0c-6.2,4.7-15.5,13-15.5,19.5v54.8h41.6V354C592.2,347.5,582.8,339.2,576.6,334.5z" />
                                         <path class="rol-rotate rol-rotate--2" fill="#DDC3AA"
                                             d="M650.1,334.5c-3.1-2.4-7.4-2.4-10.5,0c-6.2,4.7-15.5,13-15.5,19.5v54.8h41.6V354C665.6,347.5,656.2,339.2,650.1,334.5z" />
-                                        <circle class="rol-scale rol-scale--1" fill="#A09E86" cx="186.7" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--5" fill="#A09E86" cx="223.8" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--3" fill="#A09E86" cx="261" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--7" fill="#A09E86" cx="298.1" cy="250.9" r="11.5" />
+                                        <circle class="rol-scale rol-scale--1" fill="#A09E86" cx="186.7" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--5" fill="#A09E86" cx="223.8" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--3" fill="#A09E86" cx="261" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--7" fill="#A09E86" cx="298.1" cy="250.9"
+                                            r="11.5" />
                                         <path class="rol-scaleV rol-scaleV--9" fill="#FFEEDC"
                                             d="M329.7,204.4v23.8h-11.9V224c0-4.9-4-8.8-8.8-8.8c-4.9,0-8.8,3.9-8.8,8.8v4.2h-14.3V224c0-4.9-3.9-8.8-8.8-8.8s-8.8,3.9-8.8,8.8v4.2h-14.3V224c0-4.9-4-8.8-8.8-8.8s-8.8,3.9-8.8,8.8v4.2H222V224c0-4.9-4-8.8-8.8-8.8s-8.8,3.9-8.8,8.8v4.2H190V224c0-4.9-4-8.8-8.8-8.8s-8.8,3.9-8.8,8.8v4.2h-15.1v-23.8H329.7z" />
-                                        <circle class="rol-scale rol-scale--4" fill="#A09E86" cx="550.6" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--8" fill="#A09E86" cx="587.7" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--2" fill="#A09E86" cx="624.9" cy="250.9" r="11.5" />
-                                        <circle class="rol-scale rol-scale--6" fill="#A09E86" cx="662" cy="250.9" r="11.5" />
+                                        <circle class="rol-scale rol-scale--4" fill="#A09E86" cx="550.6" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--8" fill="#A09E86" cx="587.7" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--2" fill="#A09E86" cx="624.9" cy="250.9"
+                                            r="11.5" />
+                                        <circle class="rol-scale rol-scale--6" fill="#A09E86" cx="662" cy="250.9"
+                                            r="11.5" />
                                         <path class="rol-scaleV rol-scaleV--10" fill="#FFEEDC"
                                             d="M520.6,204.4v23.8h11.9V224c0-4.9,4-8.8,8.8-8.8c4.9,0,8.8,3.9,8.8,8.8v4.2h14.3V224c0-4.9,3.9-8.8,8.8-8.8s8.8,3.9,8.8,8.8v4.2h14.3V224c0-4.9,4-8.8,8.8-8.8s8.8,3.9,8.8,8.8v4.2h14.3V224c0-4.9,4-8.8,8.8-8.8s8.8,3.9,8.8,8.8v4.2h14.3V224c0-4.9,4-8.8,8.8-8.8s8.8,3.9,8.8,8.8v4.2h15.1v-23.8H520.6z" />
-                                        <rect class="rol-scaleH rol-scaleH--6" x="156" y="281.1" fill="#C1803E" width="537.1" height="12.5" />
-                                        <polygon class="rol-slide rol-slide--1" fill="#C1803E" points="330.4,31.3 425.2,0 519.9,31.3 	" />
-                                        <rect class="rol-scaleV rol-scaleV--2" x="329.7" y="43.7" fill="#FFEEDC" width="190.9" height="365" />
+                                        <rect class="rol-scaleH rol-scaleH--6" x="156" y="281.1" fill="#C1803E"
+                                            width="537.1" height="12.5" />
+                                        <polygon class="rol-slide rol-slide--1" fill="#C1803E"
+                                            points="330.4,31.3 425.2,0 519.9,31.3 	" />
+                                        <rect class="rol-scaleV rol-scaleV--2" x="329.7" y="43.7" fill="#FFEEDC"
+                                            width="190.9" height="365" />
                                         <path class="rol-scale rol-scale--10" fill="#EEDFCF"
                                             d="M424.5,270.8c0,0-41.5,36.9-41.5,52v85.9h84.2v-85.9C467.3,307.7,424.5,270.8,424.5,270.8z" />
-                                        <circle class="rol-scale rol-scale--9" fill="#C6C5B6" cx="424.5" cy="239.4" r="13.2" />
-                                        <rect class="rol-scaleV rol-scaleV--13" x="398.3" y="124.4" fill="#A09E86" width="53.7" height="74" />
-                                        <rect class="rol-scaleH rol-scaleH--7" x="393.6" y="195.4" fill="#CCC1B5" width="63.1" height="5.7" />
+                                        <circle class="rol-scale rol-scale--9" fill="#C6C5B6" cx="424.5" cy="239.4"
+                                            r="13.2" />
+                                        <rect class="rol-scaleV rol-scaleV--13" x="398.3" y="124.4" fill="#A09E86"
+                                            width="53.7" height="74" />
+                                        <rect class="rol-scaleH rol-scaleH--7" x="393.6" y="195.4" fill="#CCC1B5"
+                                            width="63.1" height="5.7" />
                                         <polygon class="rol-slide rol-slide--4" fill="#ECD1B5"
                                             points="521.1,43.7 329.3,43.7 320.6,31.5 529.7,31.5 	" />
                                         <path class="rol-bounce rol-bounce--1" fill="#3F4953"
@@ -125,11 +190,16 @@
                                             d="M458.2,69.2c-5,0-9.1,4.1-9.1,9.1v11.3h18.2V78.3C467.3,73.2,463.2,69.2,458.2,69.2z" />
                                         <path class="rol-bounce rol-bounce--5" fill="#3F4953"
                                             d="M491.2,69.2c-5,0-9.1,4.1-9.1,9.1v11.3h18.2V78.3C500.3,73.2,496.2,69.2,491.2,69.2z" />
-                                        <rect class="rol-scaleH rol-scaleH--3" x="343.8" y="89.6" fill="#CCC1B5" width="162.7" height="5.7" />
-                                        <rect class="rol-scaleH rol-scaleH--1" y="378" fill="#A5A739" width="351.3" height="30.7" />
-                                        <rect class="rol-scaleH rol-scaleH--2" x="499.1" y="378" fill="#A5A739" width="351.3" height="30.7" />
-                                        <rect class="rol-scaleV rol-scaleV--12" x="520.6" y="201.2" fill="#EEDFCF" width="181" height="6.7" />
-                                        <rect class="rol-scaleV rol-scaleV--12" x="148.8" y="201.2" fill="#EEDFCF" width="181" height="6.7" />
+                                        <rect class="rol-scaleH rol-scaleH--3" x="343.8" y="89.6" fill="#CCC1B5"
+                                            width="162.7" height="5.7" />
+                                        <rect class="rol-scaleH rol-scaleH--1" y="378" fill="#A5A739" width="351.3"
+                                            height="30.7" />
+                                        <rect class="rol-scaleH rol-scaleH--2" x="499.1" y="378" fill="#A5A739"
+                                            width="351.3" height="30.7" />
+                                        <rect class="rol-scaleV rol-scaleV--12" x="520.6" y="201.2" fill="#EEDFCF"
+                                            width="181" height="6.7" />
+                                        <rect class="rol-scaleV rol-scaleV--12" x="148.8" y="201.2" fill="#EEDFCF"
+                                            width="181" height="6.7" />
                                         <g class="rol-scaleV rol-scaleV--8">
                                             <rect x="628.2" y="170" fill="#FFEEDC" width="30.2" height="24.4" />
                                             <rect x="633.7" y="170" fill="#C6C5B6" width="19.2" height="24.4" />
@@ -152,37 +222,1285 @@
                                         </g>
                                     </g>
                                 </svg>
+    
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" id="el_VqBXDHq3z">
+                                        <style>
+                                            @-webkit-keyframes kf_el_SCvJYYXWWX_an_3h9sEmxd-6 {
+                                                21.43% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_SCvJYYXWWX_an_3h9sEmxd-6 {
+                                                21.43% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 229.91;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_SCvJYYXWWX_an_Rxyg_rbHA {
+                                                21.43% {
+                                                    stroke-dashoffset: 229.91;
+                                                }
+                                    
+                                                24.29% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 229.91;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_SCvJYYXWWX_an_Rxyg_rbHA {
+                                                21.43% {
+                                                    stroke-dashoffset: 229.91;
+                                                }
+                                    
+                                                24.29% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 229.91;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_4TliBGCc2O_an_l-l1lwdRGS {
+                                                18.57% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_4TliBGCc2O_an_l-l1lwdRGS {
+                                                18.57% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 85.9;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_4TliBGCc2O_an_2jij9jekC {
+                                                18.57% {
+                                                    stroke-dashoffset: 85.9;
+                                                }
+                                    
+                                                21.43% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 85.9;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_4TliBGCc2O_an_2jij9jekC {
+                                                18.57% {
+                                                    stroke-dashoffset: 85.9;
+                                                }
+                                    
+                                                21.43% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 85.9;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_7qQBJWcj1O_an_citWutPRFx {
+                                                15.71% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_7qQBJWcj1O_an_citWutPRFx {
+                                                15.71% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 166.49;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_7qQBJWcj1O_an_08nnUk-4e {
+                                                15.71% {
+                                                    stroke-dashoffset: 166.49;
+                                                }
+                                    
+                                                18.57% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 166.49;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_7qQBJWcj1O_an_08nnUk-4e {
+                                                15.71% {
+                                                    stroke-dashoffset: 166.49;
+                                                }
+                                    
+                                                18.57% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 166.49;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_gYKTlVTjol_an_Hz8IKnn3S {
+                                                35.71% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                42.86% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                57.14% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                64.29% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                78.57% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                85.71% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                0% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_gYKTlVTjol_an_Hz8IKnn3S {
+                                                35.71% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                42.86% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                57.14% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                64.29% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                78.57% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                85.71% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1.05, 1.05) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                    
+                                                0% {
+                                                    -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                    transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_mfPnmGcXGe_an_iSzqMNGOJ {
+                                                1.43% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                24.29% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-270deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-270deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                0% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_mfPnmGcXGe_an_iSzqMNGOJ {
+                                                1.43% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                24.29% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-270deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-270deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                    
+                                                0% {
+                                                    -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                    transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_mfPnmGcXGe_an_GDhov_7JiX {
+                                                1.43% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                24.29% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                35.71% {
+                                                    stroke-dasharray: 20;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 20;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_mfPnmGcXGe_an_GDhov_7JiX {
+                                                1.43% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                24.29% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                35.71% {
+                                                    stroke-dasharray: 20;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dasharray: 437.25;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dasharray: 20;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_mfPnmGcXGe_an_UxyOoyHKS {
+                                                1.43% {
+                                                    stroke-dashoffset: 437.25;
+                                                }
+                                    
+                                                15.71% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 437.25;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_mfPnmGcXGe_an_UxyOoyHKS {
+                                                1.43% {
+                                                    stroke-dashoffset: 437.25;
+                                                }
+                                    
+                                                15.71% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                    
+                                                0% {
+                                                    stroke-dashoffset: 437.25;
+                                                }
+                                    
+                                                100% {
+                                                    stroke-dashoffset: 0;
+                                                }
+                                            }
+                                    
+                                            @-webkit-keyframes kf_el_DAvXCbju5N_an_zonWFV8gF {
+                                                0% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                    
+                                                1.43% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 10px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 10px);
+                                                }
+                                    
+                                                2.86% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                            }
+                                    
+                                            @keyframes kf_el_DAvXCbju5N_an_zonWFV8gF {
+                                                0% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                    
+                                                1.43% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 10px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 10px);
+                                                }
+                                    
+                                                2.86% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                    
+                                                100% {
+                                                    -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                    transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                }
+                                            }
+                                    
+                                            #el_VqBXDHq3z * {
+                                                -webkit-animation-duration: 7s;
+                                                animation-duration: 7s;
+                                                -webkit-animation-iteration-count: 1;
+                                                animation-iteration-count: 1;
+                                                -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                                            }
+                                    
+                                            #el_g41350O_sr {
+                                                fill: #bbcfe0;
+                                            }
+                                    
+                                            #el_DAvXCbju5N {
+                                                fill: rgb(187, 207, 224);
+                                            }
+                                    
+                                            #el_y4xuuvPxJV {
+                                                fill: #313e5b;
+                                            }
+                                    
+                                            #el_mfPnmGcXGe {
+                                                fill: none;
+                                                stroke: #44fffa;
+                                                stroke-miterlimit: 10;
+                                                stroke-width: 3px;
+                                                -webkit-animation-fill-mode: backwards, backwards;
+                                                animation-fill-mode: backwards, backwards;
+                                                stroke-dashoffset: 437.25;
+                                                -webkit-animation-name: kf_el_mfPnmGcXGe_an_UxyOoyHKS, kf_el_mfPnmGcXGe_an_GDhov_7JiX;
+                                                animation-name: kf_el_mfPnmGcXGe_an_UxyOoyHKS, kf_el_mfPnmGcXGe_an_GDhov_7JiX;
+                                                -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1), cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0, 0, 1, 1), cubic-bezier(0, 0, 1, 1);
+                                                stroke-dasharray: 437.25;
+                                            }
+                                    
+                                            #el_7qQBJWcj1O {
+                                                fill: none;
+                                                stroke: #44fffa;
+                                                stroke-linecap: round;
+                                                stroke-linejoin: round;
+                                                stroke-width: 3px;
+                                                -webkit-animation-fill-mode: backwards, backwards;
+                                                animation-fill-mode: backwards, backwards;
+                                                stroke-dashoffset: 166.49;
+                                                -webkit-animation-name: kf_el_7qQBJWcj1O_an_08nnUk-4e, kf_el_7qQBJWcj1O_an_citWutPRFx;
+                                                animation-name: kf_el_7qQBJWcj1O_an_08nnUk-4e, kf_el_7qQBJWcj1O_an_citWutPRFx;
+                                                -webkit-animation-timing-function: cubic-bezier(0.42, 0, 1, 1), cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0.42, 0, 1, 1), cubic-bezier(0, 0, 1, 1);
+                                                stroke-dasharray: 166.49;
+                                            }
+                                    
+                                            #el_4TliBGCc2O {
+                                                fill: none;
+                                                stroke: #44fffa;
+                                                stroke-linecap: round;
+                                                stroke-linejoin: round;
+                                                stroke-width: 3px;
+                                                -webkit-animation-fill-mode: backwards, backwards;
+                                                animation-fill-mode: backwards, backwards;
+                                                stroke-dashoffset: 85.9;
+                                                -webkit-animation-name: kf_el_4TliBGCc2O_an_2jij9jekC, kf_el_4TliBGCc2O_an_l-l1lwdRGS;
+                                                animation-name: kf_el_4TliBGCc2O_an_2jij9jekC, kf_el_4TliBGCc2O_an_l-l1lwdRGS;
+                                                -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0, 0, 1, 1);
+                                                stroke-dasharray: 85.9;
+                                            }
+                                    
+                                            #el_SCvJYYXWWX {
+                                                fill: none;
+                                                stroke: #44fffa;
+                                                stroke-linecap: round;
+                                                stroke-linejoin: round;
+                                                stroke-width: 3px;
+                                                -webkit-animation-fill-mode: backwards, backwards;
+                                                animation-fill-mode: backwards, backwards;
+                                                stroke-dashoffset: 229.91;
+                                                -webkit-animation-name: kf_el_SCvJYYXWWX_an_Rxyg_rbHA, kf_el_SCvJYYXWWX_an_3h9sEmxd-6;
+                                                animation-name: kf_el_SCvJYYXWWX_an_Rxyg_rbHA, kf_el_SCvJYYXWWX_an_3h9sEmxd-6;
+                                                -webkit-animation-timing-function: cubic-bezier(0, 0, 0.58, 1), cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0, 0, 0.58, 1), cubic-bezier(0, 0, 1, 1);
+                                                stroke-dasharray: 229.91;
+                                            }
+                                    
+                                            #el_DAvXCbju5N_an_zonWFV8gF {
+                                                -webkit-animation-fill-mode: backwards;
+                                                animation-fill-mode: backwards;
+                                                -webkit-transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                transform: translate(130.61973571777344px, 57.29975509643555px) translate(-130.61973571777344px, -57.29975509643555px) translate(0px, 0px);
+                                                -webkit-animation-name: kf_el_DAvXCbju5N_an_zonWFV8gF;
+                                                animation-name: kf_el_DAvXCbju5N_an_zonWFV8gF;
+                                                -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                                                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                                            }
+                                    
+                                            #el_mfPnmGcXGe_an_iSzqMNGOJ {
+                                                -webkit-animation-fill-mode: backwards;
+                                                animation-fill-mode: backwards;
+                                                -webkit-transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                transform: translate(153.80001068115234px, 166.45999908447266px) rotate(-90deg) translate(-153.80001068115234px, -166.45999908447266px);
+                                                -webkit-animation-name: kf_el_mfPnmGcXGe_an_iSzqMNGOJ;
+                                                animation-name: kf_el_mfPnmGcXGe_an_iSzqMNGOJ;
+                                                -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                                                animation-timing-function: cubic-bezier(0, 0, 1, 1);
+                                            }
+                                    
+                                            #el_gYKTlVTjol_an_Hz8IKnn3S {
+                                                -webkit-animation-fill-mode: backwards;
+                                                animation-fill-mode: backwards;
+                                                -webkit-transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                transform: translate(153.78500366210938px, 170.28260040283203px) scale(1, 1) translate(-153.78500366210938px, -170.28260040283203px);
+                                                -webkit-animation-name: kf_el_gYKTlVTjol_an_Hz8IKnn3S;
+                                                animation-name: kf_el_gYKTlVTjol_an_Hz8IKnn3S;
+                                                -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                                                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                                            }
+                                        </style>
+                                        <circle cx="153.8" cy="166.46" r="89.35" id="el_g41350O_sr" />
+                                        <g id="el_DAvXCbju5N_an_zonWFV8gF" data-animator-group="true" data-animator-type="0">
+                                            <path id="el_DAvXCbju5N"
+                                                d="M173.4,57.3H134a3.34,3.34,0,0,0-3.38,3.38v5.73a1.83,1.83,0,0,0,1.84,1.84h8.9A2.71,2.71,0,0,1,144,70.92V98.35h19.55V71a2.71,2.71,0,0,1,2.66-2.66h8.9A1.83,1.83,0,0,0,177,66.52V60.78A3.84,3.84,0,0,0,173.4,57.3Z" />
+                                        </g>
+                                        <circle cx="153.8" cy="166.46" r="80" id="el_y4xuuvPxJV" />
+                                        <g id="el_mfPnmGcXGe_an_iSzqMNGOJ" data-animator-group="true" data-animator-type="1">
+                                            <path d="M223.38,166.46A69.58,69.58,0,1,1,153.8,96.88,69.58,69.58,0,0,1,223.38,166.46Z" id="el_mfPnmGcXGe" />
+                                        </g>
+                                        <g id="el_gYKTlVTjol_an_Hz8IKnn3S" data-animator-group="true" data-animator-type="2">
+                                            <g id="el_gYKTlVTjol">
+                                                <path
+                                                    d="M103,178.06c1.8-5.09,11-25.47,15.72-32.56,5-7.4,16.48-2.32,14.31,5.4s-11.39,10.2-20.21,13.34c9.19-.54-.78,15.63,7.84,13.91,6.47-1.29,12.26-4.2,16.33-9.3,8.72-10.9-7.85-10.39-7.6,3.5.14,7.88,7.71,6.59,14-2"
+                                                    id="el_7qQBJWcj1O" />
+                                                <path
+                                                    d="M156.44,168.63c4.42-8.83-6.41-10.25-11.54-.88-6.17,11.27,2.35,14.48,10.66,3.25-4.74,11.79,3.61,6.76,7.09-1.2,5.08-11.62,15.37-8.73,12.52-2.2"
+                                                    id="el_4TliBGCc2O" />
+                                                <path
+                                                    d="M162.66,169.8c-4.36,9.9,5.93,12.8,11.74-.12,2-4.42,5-12.42,9.42-23.53-2,5.14-7.7,20.13-9.42,24.39-3.53,8.74,2.89,11.94,6.89.16s11.38-11.22,7.42-1.44c-5.14,12.68,5.09,12.1,9.31,1.85,1-2.48,2.51-6.48,3.45-9.73-3.27,10.95-6.78,20.79-9.11,26.8-7.76,20-19.81,7.44-2-4.93,6.69-4.64,13.82-8.9,14.21-12.32"
+                                                    id="el_SCvJYYXWWX" />
+                                            </g>
+                                        </g>
+                                    </svg> -->
                             </div>
-                         </figure>
-                     </div>
-                     <div class="column is-6 is-offset-1">
-                         <h1 class="title is-2">
-                             <img src="img/tafita_ltr.png" alt="logo2">
-                         </h1>
-                         <h2 class="subtitle is-4">
-                             Pour une éducation plus facile
-                         </h2>
-                         <br>
-                         <p class="has-text-centered">
-                             <a class="button is-medium is-info is-outlined">
-                                 ENTRER
-                             </a>
-                         </p>
-                     </div>
-                 </div>
-             </div>
-         </div>
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">
+                            <img src="img/TAFITA.png" alt="logo2">
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Travailler plus facilement.
+                        </h2>
+                        <br>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-danger is-outlined">
+                                S'inscrire
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-         <div class="hero-foot">
-             <div class="container">
-                 <div class="tabs is-centered">
-                     <ul>
-                         <li><a>© HKUI - TEAM BANDI</a></li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-     </section>
+    </section>
+    <div class="box cta">
+        <p class="has-text-centered">
+            <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+    <section class="container">
+        <div class="columns features">
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-empire"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Tristique senectus et netus et. </h4>
+                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
+                                Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut
+                                consequat semper viverra nam.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-empire"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Tempor orci dapibus ultrices in.</h4>
+                            <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed
+                                arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas
+                                cmonsu songue. Phasellus vestibulum lorem
+                                sed risus.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card is-shady">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-apple"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4> Leo integer malesuada nunc vel risus. </h4>
+                            <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla
+                                pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra
+                                maecenas accumsan lacus vel facilisis.</p>
+                            <p><a href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro column is-8 is-offset-2">
+            <h2 class="title">Mooc</h2><br>
+            <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a.
+                Neque egestas congue quisque egestas diam in arcu cursus.</p>
+        </div>
+        <div class="sandbox">
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Hello World</p>
+                        <p class="subtitle">What is up?</p>
+                    </article>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Foo</p>
+                        <p class="subtitle">Bar</p>
+                    </article>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Third column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                                facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Vertical tiles</p>
+                                <p class="subtitle">Top box</p>
+                            </article>
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Vertical tiles</p>
+                                <p class="subtitle">Bottom box</p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-white">
+                                <p class="title">Middle box</p>
+                                <p class="subtitle">With an image</p>
+                                <figure class="image is-4by3">
+                                    <img src="" alt="Description">
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Wide column</p>
+                            <p class="subtitle">Aligned with the right column</p>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                    pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis
+                                    feugiat facilisis.</p>
+                            </div>
+
+=======
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <div class="content">
+                            <p class="title">Tall column</p>
+                            <p class="subtitle">With even more content</p>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat
+                                    pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida
+                                    libero rhoncus ut. Morbi maximus, leo sit amet vehicula
+                                    eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                                <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis.
+                                    Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et
+                                    sollicitudin felis neque sit amet erat. Maecenas imperdiet
+                                    felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam,
+                                    finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+                                <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue
+                                    lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a
+                                    metus. Cras ullamcorper a nunc ac porta. Aliquam
+                                    ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Side column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                                facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="tile is-parent is-8 is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Main column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                                facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-8 is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Murphy's law</p>
+                        <p class="subtitle">Anything that can go wrong will go wrong</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                                facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="tile is-parent is-shady">
+                    <article class="tile is-child notification is-white">
+                        <p class="title">Main column</p>
+                        <p class="subtitle">With some content</p>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                                pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                                facilisis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section hero is-light testimonials">
+        <div class="columns">
+            <div class="column is-3">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://source.unsplash.com/RWnpyGtY1aU" alt="Placeholder image" class="modal-button"
+                                data-target="modal-image2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Click on image above</h4>
+                            <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-3">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://source.unsplash.com/RWnpyGtY1aU" alt="Placeholder image" class="modal-button"
+                                data-target="modal-image2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Click on image above</h4>
+                            <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="column is-3">
+                            <div class="card is-shady">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://source.unsplash.com/RWnpyGtY1aU" alt="Placeholder image" class="modal-button"
+                                            data-target="modal-image2">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <h4>Click on image above</h4>
+                                        <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="card is-shady">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://source.unsplash.com/RWnpyGtY1aU" alt="Placeholder image" class="modal-button"
+                                            data-target="modal-image2">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <h4>Click on image above</h4>
+                                        <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3 is-offset-2">
+                    <h2><strong>Category</strong></h2>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Vestibulum errato isse</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Aisia caisia</a></li>
+                        <li><a href="#">Murphy's law</a></li>
+                        <li><a href="#">Flimsy Lavenrock</a></li>
+                        <li><a href="#">Maven Mousie Lavender</a></li>
+                    </ul>
+                </div>
+                <div class="column is-3">
+                    <h2><strong>Category</strong></h2>
+                    <ul>
+                        <li><a href="#">Labore et dolore magna aliqua</a></li>
+                        <li><a href="#">Kanban airis sum eschelor</a></li>
+                        <li><a href="#">Modular modern free</a></li>
+                        <li><a href="#">The king of clubs</a></li>
+                        <li><a href="#">The Discovery Dissipation</a></li>
+                        <li><a href="#">Course Correction</a></li>
+                        <li><a href="#">Better Angels</a></li>
+                    </ul>
+                </div>
+                <div class="column is-4">
+                    <h2><strong>Category</strong></h2>
+                    <ul>
+                        <li><a href="#">Objects in space</a></li>
+                        <li><a href="#">Playing cards with coyote</a></li>
+                        <li><a href="#">Goodbye Yellow Brick Road</a></li>
+                        <li><a href="#">The Garden of Forking Paths</a></li>
+                        <li><a href="#">Future Shock</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content has-text-centered">
+                <p>
+                    <a class="icon" href="https://github.com/dansup/bulma-templates">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+                <div class="control level-item">
+                    <a href="https://github.com/dansup/bulma-templates">
+                        <div class="tags has-addons">
+                            <span class="tag is-dark">Bulma Templates</span>
+                            <span class="tag is-info">MIT license</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+     
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Bulma</strong> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jgthms.com" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Jeremy Thomas</a>.
+</h4>
+
+<div class="bd-footer-iframe">
+  <iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 229px; height: 28px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.2e9f365dae390394eb8d923cba8c5b11.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=jgthms&amp;show_count=true&amp;show_screen_name=true&amp;size=l&amp;time=1553870092060" data-screen-name="jgthms" frameborder="0"></iframe>
+</div>
+
+<div class="bd-footer-tsp">
+  Source code licensed <a href="https://opensource.org/licenses/mit-license.php">MIT</a>.
+  <br>
+  Website content licensed <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+</div>
+
+      </div>
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong>Contribute</strong> on GitHub
+</h4>
+
+<div class="bd-footer-iframe is-github">
+  <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&amp;repo=bulma&amp;type=star&amp;count=true&amp;size=large" allowtransparency="true" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+  <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&amp;type=follow&amp;count=true&amp;size=large" scrolling="0" width="170px" height="30px" frameborder="0"></iframe>
+</div>
+
+      </div>
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong>Share</strong> on social media
+</h4>
+
+<div class="bd-footer-iframe">
+  <iframe id="twitter-widget-1" scrolling="no" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 75px; height: 28px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.2e9f365dae390394eb8d923cba8c5b11.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https%3A%2F%2Fbulma.io%2Fexpo%2F&amp;related=jgthms%3ACreator%20of%20Bulma&amp;size=l&amp;text=Bulma%3A%20Free%2C%20open%20source%2C%20%26%20modern%20CSS%20framework%20based%20on%20Flexbox&amp;time=1553870092070&amp;type=share&amp;url=https%3A%2F%2Fbulma.io&amp;via=jgthms" data-url="https://bulma.io" frameborder="0"></iframe>
+
+  <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/bulmaio" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=310296819307942&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbulmaio&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;size=large"><span style="vertical-align: bottom; width: 120px; height: 28px;"><iframe name="f1b510fd4e6709e" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible; width: 120px; height: 28px;" src="https://www.facebook.com/v2.8/plugins/like.php?action=like&amp;app_id=310296819307942&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df44d37da11e414%26domain%3Dbulma.io%26origin%3Dhttps%253A%252F%252Fbulma.io%252Ff2d4fd51b1956d4%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbulmaio&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;size=large" class="" width="1000px" height="1000px" frameborder="0"></iframe></span></div>
+</div>
+
+      </div>
+    </div>
+    
+
+
+
+<div class="bd-footer-stars">
+  <a class="bd-footer-star bd-is-bootstrap" href="https://bulma.io/alternative-to-bootstrap">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <strong>Coming from Bootstrap</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        An alternative to Bootstrap
+      </p>
+    </header>
+
+    <figure class="bd-footer-star-figure">
+      <img src="https://bulma.io/images/footer/bootstrap-to-bulma.png" width="160" height="48">
+    </figure>
+  </a>
+
+  <a class="bd-footer-star bd-is-expo" href="https://bulma.io/expo">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <span class="icon has-text-star">
+          <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> -->
+        </span>
+        <strong>Expo</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        See what you can build with Bulma
+      </p>
+    </header>
+  </a>
+
+  <a class="bd-footer-star bd-is-love" href="https://bulma.io/love">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <span class="icon has-text-danger">
+          <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+        </span>
+        <strong>Love</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        Fans of Bulma
+      </p>
+    </header>
+  </a>
+</div>
+
+    
+
+
+
+<div class="bd-footer-links">
+  <div class="columns">
+    <div class="column is-3">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io">Home</a>
+      </p>
+
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/blog">Blog</a>
+      </p>
+
+      
+        <p class="bd-footer-link">
+          <a href="/2018/06/20/automatic-variables-documentation/">
+            Automatic variables docs
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="/2018/04/14/migration-to-v070/">
+            Migrating to v0.7.0
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="/2018/04/13/website-redesign/">
+            Website redesign
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="/2018/01/18/bulma-supports-font-awesome-5/">
+            Font Awesome 5
+          </a>
+        </p>
+      
+
+      <p class="bd-footer-link bd-is-more">
+        <a href="https://bulma.io/blog">
+          View all posts
+        </a>
+      </p>
+    </div>
+
+    <div class="column is-3">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/documentation">Documentation</a>
+      </p>
+
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/overview">
+            Overview
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/customize">
+            Customize
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/modifiers">
+            Modifiers
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/columns">
+            Columns
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/layout">
+            Layout
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/form">
+            Form
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/elements">
+            Elements
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/components">
+            Components
+          </a>
+        </p>
+      
+    </div>
+
+    <div class="column is-6">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/more">More</a>
+      </p>
+
+      
+      <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/expo">
+    <span class="bd-footer-link-icon has-text-star">
+      <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> -->
+    </span>
+    <strong>
+      Expo
+    </strong>
+    <em>
+      Official Bulma showcase
+    </em>
+  </a>
+</p>
+
+
+      
+      <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/love">
+    <span class="bd-footer-link-icon has-text-danger">
+      <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+    </span>
+    <strong>
+      Love
+    </strong>
+    <em>
+      Fans of Bulma around the world
+    </em>
+  </a>
+</p>
+
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/bulma-start">
+    <span class="bd-footer-link-icon has-text-success">
+      <svg class="svg-inline--fa fa-rocket fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="rocket" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505.1 19.1C503.8 13 499 8.2 492.9 6.9 460.7 0 435.5 0 410.4 0 307.2 0 245.3 55.2 199.1 128H94.9c-18.2 0-34.8 10.3-42.9 26.5L2.6 253.3c-8 16 3.6 34.7 21.5 34.7h95.1c-5.9 12.8-11.9 25.5-18 37.7-3.1 6.2-1.9 13.6 3 18.5l63.6 63.6c4.9 4.9 12.3 6.1 18.5 3 12.2-6.1 24.9-12 37.7-17.9V488c0 17.8 18.8 29.4 34.7 21.5l98.7-49.4c16.3-8.1 26.5-24.8 26.5-42.9V312.8c72.6-46.3 128-108.4 128-211.1.1-25.2.1-50.4-6.8-82.6zM400 160c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z"></path></svg><!-- <i class="fas fa-rocket"></i> -->
+    </span>
+    <strong>
+      Bulma start
+    </strong>
+    <em>
+      A tiny npm package to get started
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/made-with-bulma">
+    <span class="bd-footer-link-icon has-text-primary">
+      <svg class="svg-inline--fa fa-certificate fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="certificate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.622 255.92l45.985-45.005c13.708-12.977 7.316-36.039-10.664-40.339l-62.65-15.99 17.661-62.015c4.991-17.838-11.829-34.663-29.661-29.671l-61.994 17.667-15.984-62.671C337.085.197 313.765-6.276 300.99 7.228L256 53.57 211.011 7.229c-12.63-13.351-36.047-7.234-40.325 10.668l-15.984 62.671-61.995-17.667C74.87 57.907 58.056 74.738 63.046 92.572l17.661 62.015-62.65 15.99C.069 174.878-6.31 197.944 7.392 210.915l45.985 45.005-45.985 45.004c-13.708 12.977-7.316 36.039 10.664 40.339l62.65 15.99-17.661 62.015c-4.991 17.838 11.829 34.663 29.661 29.671l61.994-17.667 15.984 62.671c4.439 18.575 27.696 24.018 40.325 10.668L256 458.61l44.989 46.001c12.5 13.488 35.987 7.486 40.325-10.668l15.984-62.671 61.994 17.667c17.836 4.994 34.651-11.837 29.661-29.671l-17.661-62.015 62.65-15.99c17.987-4.302 24.366-27.367 10.664-40.339l-45.984-45.004z"></path></svg><!-- <i class="fas fa-certificate"></i> -->
+    </span>
+    <strong>
+      Made with Bulma
+    </strong>
+    <em>
+      The official community badge
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/alternative-to-bootstrap">
+    <span class="bd-footer-link-icon has-text-bootstrap">
+      <svg class="svg-inline--fa fa-exchange-alt fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-exchange-alt"></i> -->
+    </span>
+    <strong>
+      Coming from Bootstrap
+    </strong>
+    <em>
+      See how Bulma is an alternative to Bootstrap
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/backers">
+    <span class="bd-footer-link-icon has-text-patreon">
+      <svg class="svg-inline--fa fa-patreon fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="patreon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"></path></svg><!-- <i class="fab fa-patreon"></i> -->
+    </span>
+    <strong>
+      Patreon backers
+    </strong>
+    <em>
+      Everyone who is supporting Bulma
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/extensions">
+    <span class="bd-footer-link-icon has-text-orange">
+      <svg class="svg-inline--fa fa-plug fa-w-12" aria-hidden="true" data-prefix="fas" data-icon="plug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M256 144V32c0-17.673 14.327-32 32-32s32 14.327 32 32v112h-64zm112 16H16c-8.837 0-16 7.163-16 16v32c0 8.837 7.163 16 16 16h16v32c0 77.406 54.969 141.971 128 156.796V512h64v-99.204c73.031-14.825 128-79.39 128-156.796v-32h16c8.837 0 16-7.163 16-16v-32c0-8.837-7.163-16-16-16zm-240-16V32c0-17.673-14.327-32-32-32S64 14.327 64 32v112h64z"></path></svg><!-- <i class="fas fa-plug"></i> -->
+    </span>
+    <strong>
+      Bulma extensions
+    </strong>
+    <em>
+      Side projects to enhance Bulma
+    </em>
+  </a>
+</p>
+
+      
+    </div>
+  </div>
+</div>
+
+  </div>
+</footer>
     <script src="js/app.js"></script>
 </body>
 </html>
